@@ -1,0 +1,106 @@
+// const mayName = 'Ramila';
+// const birthCity = 'São Lourenço'; 
+// let birthYear = 1989;
+
+// console.log (mayName);
+// console.log (birthCity);
+// console.log (birthYear);
+
+// birthYear = 2030;
+// console.log (birthYear);
+
+// const base = 5;
+// let heigth = 8;
+// const area = (base * heigth);
+// console.log (area);
+
+// const perimeter = 5 + 5 + 8 + 8;
+// console.log (perimeter);
+
+// const notaPessoaCandidata = 100;
+// if (notaPessoaCandidata >=100) {
+//     console.log ("Parabéns, você foi aprovada!");
+// } 
+// else if(notaPessoaCandidata <100 && notaPessoaCandidata >= 80) {
+//     console.log ("Você está na nossa lista de espera");
+// }
+// else if (notaPessoaCandidata < 80) {
+//     console.log ("Você foi reprovado");
+// }
+
+// const a = 5
+// const b = 3
+
+// console.log ('soma:' + (a + b));
+// console.log ('subtração:' + (a - b));
+// console.log ('mutiplicação:' + (a * b));
+// console.log ('divisão:' + (a / b));
+// console.log ('modulo:' + (a % b));
+
+// const a = 6
+// const b = 8
+
+// if (a > b) {
+//     console.log("'a' é maior que 'b'");
+//   } else {
+//     console.log("'b' é maior que 'a'");
+//   };
+
+
+// const a = 10
+// const b = 14
+// const c = 8
+
+// if (a > b && a > c) {
+//     console.log('O maior número é: ' + a + ' (a)');
+//   } else if (b > a && b > c) {
+//     console.log('O maior número é: ' + b + ' (b)');
+//   } else {
+//     console.log('O maior número é: ' + c + ' (c)');
+//   };
+
+//   const grau1 = 45
+//   const grau2 = 60
+//   const grau3 = 90
+
+// if (grau1 === 45 && grau2 === 60 && grau3 === 90){
+//   console.log (true);
+// }if else (grau1 !< 45 && grau2 !< 60 && grau3 ! 90){
+//   console.log (false);
+// }else {
+//    console.log ( erro );
+// }
+
+
+// let names = {
+//   person1: 'João',
+//   person2: 'Maria',
+//   person3: 'Jorge',
+// };
+//  for (let olá in (names)) {
+// console.log(olá, names);
+//  }
+  
+// const object = { a: 1, b: 2, c: 3 };
+
+// for (const property in object) {
+//   console.log(property + ' = ' + object[property]);
+// }
+
+// function sum(a, b) {
+//   a + b;
+// }
+// console.log(sum(1, 2));
+
+//Objetos e For/In
+//Usando o objeto abaixo, faça os exercícios a seguir:
+
+let info = {
+  personagem: 'Margarida',
+  origem: 'Pato Donald',
+  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+  recorrente: 'sim'
+};
+
+console.log('Bem vinda,',info.personagem);
+console.log(info);
